@@ -1,1 +1,4 @@
-sqlcmd -U sa -P P@ssw0rd -Q "use master;create database nxtgendb"
+sqlcmd -U sa -P P@ssw0rd -Q "use master;
+IF DB_ID('nxtgendb') IS NOT NULL
+	drop database nxtgendb;
+create database nxtgendb"
