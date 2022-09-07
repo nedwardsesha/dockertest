@@ -1,0 +1,1 @@
+sqlcmd -U sa -P P@ssw0rd -Q "use master;create database nxtgendb"
