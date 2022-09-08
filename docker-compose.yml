@@ -5,7 +5,7 @@ services:
     container_name: sql-server-db
     image: mcr.microsoft.com/mssql/server:2017-latest
     ports:
-      - "1433:1433"
+      - "1439:1433"
     environment:
       SA_PASSWORD: "P@ssw0rd"
       ACCEPT_EULA: "Y"
