@@ -1,1 +1,1 @@
-docker-compose up -t -d 
+docker-compose up -d 
