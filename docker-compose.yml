@@ -3,7 +3,7 @@ services:
 
   sql-server-db:
     container_name: sql-server-db
-    image: sql-server-db-container
+    image: nedwardsesha/sql-server-db-container
     ports:
       - "1439:1433"
     environment:
